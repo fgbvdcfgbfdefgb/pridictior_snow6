@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+/tmp/
+*.log
+download_log.txt
+
+# Local scratch -- real deliverable checkpoints are the split .part* files
+# plus .manifest.json committed under checkpoints/
+*.pt.tmp

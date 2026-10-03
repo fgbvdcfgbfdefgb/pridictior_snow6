@@ -1,0 +1,565 @@
+{
+  "months": {
+    "2020-01": {
+      "bytes": 61364131,
+      "end_ts_ms": 1580515199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-01.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1577836800000
+    },
+    "2020-02": {
+      "bytes": 59184962,
+      "end_ts_ms": 1583020799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-02.parquet",
+      "rows": 2480733,
+      "start_ts_ms": 1580515200000
+    },
+    "2020-03": {
+      "bytes": 65506293,
+      "end_ts_ms": 1585699199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-03.parquet",
+      "rows": 2670707,
+      "start_ts_ms": 1583020800000
+    },
+    "2020-04": {
+      "bytes": 59498741,
+      "end_ts_ms": 1588291199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-04.parquet",
+      "rows": 2583000,
+      "start_ts_ms": 1585699200000
+    },
+    "2020-05": {
+      "bytes": 63858649,
+      "end_ts_ms": 1590969599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-05.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1588291200000
+    },
+    "2020-06": {
+      "bytes": 53456104,
+      "end_ts_ms": 1593561599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-06.parquet",
+      "rows": 2579400,
+      "start_ts_ms": 1590969600000
+    },
+    "2020-07": {
+      "bytes": 57298378,
+      "end_ts_ms": 1596239999000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-07.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1593561600000
+    },
+    "2020-08": {
+      "bytes": 62967203,
+      "end_ts_ms": 1598918399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-08.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1596240000000
+    },
+    "2020-09": {
+      "bytes": 60639294,
+      "end_ts_ms": 1601510399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-09.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1598918400000
+    },
+    "2020-10": {
+      "bytes": 58406433,
+      "end_ts_ms": 1604188799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-10.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1601510400000
+    },
+    "2020-11": {
+      "bytes": 67511228,
+      "end_ts_ms": 1606780799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-11.parquet",
+      "rows": 2588400,
+      "start_ts_ms": 1604188800000
+    },
+    "2020-12": {
+      "bytes": 70751968,
+      "end_ts_ms": 1609459199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2020-12.parquet",
+      "rows": 2659641,
+      "start_ts_ms": 1606780800000
+    },
+    "2021-01": {
+      "bytes": 76702171,
+      "end_ts_ms": 1612137599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-01.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1609459200000
+    },
+    "2021-02": {
+      "bytes": 69256764,
+      "end_ts_ms": 1614556799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-02.parquet",
+      "rows": 2414455,
+      "start_ts_ms": 1612137600000
+    },
+    "2021-03": {
+      "bytes": 74535491,
+      "end_ts_ms": 1617235199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-03.parquet",
+      "rows": 2673000,
+      "start_ts_ms": 1614556800000
+    },
+    "2021-04": {
+      "bytes": 70161775,
+      "end_ts_ms": 1619827199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-04.parquet",
+      "rows": 2565959,
+      "start_ts_ms": 1617235200000
+    },
+    "2021-05": {
+      "bytes": 76560657,
+      "end_ts_ms": 1622505599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-05.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1619827200000
+    },
+    "2021-06": {
+      "bytes": 72801305,
+      "end_ts_ms": 1625097599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-06.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1622505600000
+    },
+    "2021-07": {
+      "bytes": 71326114,
+      "end_ts_ms": 1627775999000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-07.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1625097600000
+    },
+    "2021-08": {
+      "bytes": 69476501,
+      "end_ts_ms": 1630454399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-08.parquet",
+      "rows": 2662200,
+      "start_ts_ms": 1627776000000
+    },
+    "2021-09": {
+      "bytes": 61992111,
+      "end_ts_ms": 1633046399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-09.parquet",
+      "rows": 2584800,
+      "start_ts_ms": 1630454400000
+    },
+    "2021-10": {
+      "bytes": 64363013,
+      "end_ts_ms": 1635724799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-10.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1633046400000
+    },
+    "2021-11": {
+      "bytes": 61753478,
+      "end_ts_ms": 1638316799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-11.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1635724800000
+    },
+    "2021-12": {
+      "bytes": 63151634,
+      "end_ts_ms": 1640995199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2021-12.parquet",
+      "rows": 2678359,
+      "start_ts_ms": 1638316800000
+    },
+    "2022-01": {
+      "bytes": 63441987,
+      "end_ts_ms": 1643673599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-01.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1640995200000
+    },
+    "2022-02": {
+      "bytes": 56222078,
+      "end_ts_ms": 1646092799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-02.parquet",
+      "rows": 2419200,
+      "start_ts_ms": 1643673600000
+    },
+    "2022-03": {
+      "bytes": 59477461,
+      "end_ts_ms": 1648771199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-03.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1646092800000
+    },
+    "2022-04": {
+      "bytes": 53640729,
+      "end_ts_ms": 1651363199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-04.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1648771200000
+    },
+    "2022-05": {
+      "bytes": 60175919,
+      "end_ts_ms": 1654041599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-05.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1651363200000
+    },
+    "2022-06": {
+      "bytes": 60617571,
+      "end_ts_ms": 1656633599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-06.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1654041600000
+    },
+    "2022-07": {
+      "bytes": 69148322,
+      "end_ts_ms": 1659311999000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-07.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1656633600000
+    },
+    "2022-08": {
+      "bytes": 68882042,
+      "end_ts_ms": 1661990399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-08.parquet",
+      "rows": 2678392,
+      "start_ts_ms": 1659312000000
+    },
+    "2022-09": {
+      "bytes": 69160742,
+      "end_ts_ms": 1664582399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-09.parquet",
+      "rows": 2591964,
+      "start_ts_ms": 1661990400000
+    },
+    "2022-10": {
+      "bytes": 67106535,
+      "end_ts_ms": 1667260799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-10.parquet",
+      "rows": 2677841,
+      "start_ts_ms": 1664582400000
+    },
+    "2022-11": {
+      "bytes": 66913810,
+      "end_ts_ms": 1669852799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-11.parquet",
+      "rows": 2590287,
+      "start_ts_ms": 1667260800000
+    },
+    "2022-12": {
+      "bytes": 62728245,
+      "end_ts_ms": 1672531199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2022-12.parquet",
+      "rows": 2676494,
+      "start_ts_ms": 1669852800000
+    },
+    "2023-01": {
+      "bytes": 67515922,
+      "end_ts_ms": 1675209599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-01.parquet",
+      "rows": 2676454,
+      "start_ts_ms": 1672531200000
+    },
+    "2023-02": {
+      "bytes": 63966385,
+      "end_ts_ms": 1677628799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-02.parquet",
+      "rows": 2418466,
+      "start_ts_ms": 1675209600000
+    },
+    "2023-03": {
+      "bytes": 67248707,
+      "end_ts_ms": 1680307199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-03.parquet",
+      "rows": 2672309,
+      "start_ts_ms": 1677628800000
+    },
+    "2023-04": {
+      "bytes": 50361947,
+      "end_ts_ms": 1682899199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-04.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1680307200000
+    },
+    "2023-05": {
+      "bytes": 49178040,
+      "end_ts_ms": 1685577599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-05.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1682899200000
+    },
+    "2023-06": {
+      "bytes": 48244703,
+      "end_ts_ms": 1688169599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-06.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1685577600000
+    },
+    "2023-07": {
+      "bytes": 42865320,
+      "end_ts_ms": 1690847999000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-07.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1688169600000
+    },
+    "2023-08": {
+      "bytes": 42473137,
+      "end_ts_ms": 1693526399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-08.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1690848000000
+    },
+    "2023-09": {
+      "bytes": 41908348,
+      "end_ts_ms": 1696118399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-09.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1693526400000
+    },
+    "2023-10": {
+      "bytes": 48414351,
+      "end_ts_ms": 1698796799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-10.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1696118400000
+    },
+    "2023-11": {
+      "bytes": 49372212,
+      "end_ts_ms": 1701388799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-11.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1698796800000
+    },
+    "2023-12": {
+      "bytes": 52203709,
+      "end_ts_ms": 1704067199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2023-12.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1701388800000
+    },
+    "2024-01": {
+      "bytes": 55101841,
+      "end_ts_ms": 1706745599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-01.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1704067200000
+    },
+    "2024-02": {
+      "bytes": 49821018,
+      "end_ts_ms": 1709251199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-02.parquet",
+      "rows": 2505600,
+      "start_ts_ms": 1706745600000
+    },
+    "2024-03": {
+      "bytes": 59706691,
+      "end_ts_ms": 1711929599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-03.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1709251200000
+    },
+    "2024-04": {
+      "bytes": 55060821,
+      "end_ts_ms": 1714521599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-04.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1711929600000
+    },
+    "2024-05": {
+      "bytes": 52889306,
+      "end_ts_ms": 1717199999000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-05.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1714521600000
+    },
+    "2024-06": {
+      "bytes": 46800250,
+      "end_ts_ms": 1719791999000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-06.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1717200000000
+    },
+    "2024-07": {
+      "bytes": 52629880,
+      "end_ts_ms": 1722470399000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-07.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1719792000000
+    },
+    "2024-08": {
+      "bytes": 55209784,
+      "end_ts_ms": 1725148799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-08.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1722470400000
+    },
+    "2024-09": {
+      "bytes": 48607811,
+      "end_ts_ms": 1727740799000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-09.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1725148800000
+    },
+    "2024-10": {
+      "bytes": 51195368,
+      "end_ts_ms": 1730419199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-10.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1727740800000
+    },
+    "2024-11": {
+      "bytes": 57628227,
+      "end_ts_ms": 1733011199000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-11.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1730419200000
+    },
+    "2024-12": {
+      "bytes": 58347246,
+      "end_ts_ms": 1735689599000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2024-12.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1733011200000
+    },
+    "2025-01": {
+      "bytes": 59237982,
+      "end_ts_ms": 1738367999000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-01.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1735689600000000
+    },
+    "2025-02": {
+      "bytes": 54034203,
+      "end_ts_ms": 1740787199000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-02.parquet",
+      "rows": 2419200,
+      "start_ts_ms": 1738368000000000
+    },
+    "2025-03": {
+      "bytes": 60111759,
+      "end_ts_ms": 1743465599000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-03.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1740787200000000
+    },
+    "2025-04": {
+      "bytes": 55156322,
+      "end_ts_ms": 1746057599000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-04.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1743465600000000
+    },
+    "2025-05": {
+      "bytes": 53997219,
+      "end_ts_ms": 1748735999000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-05.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1746057600000000
+    },
+    "2025-06": {
+      "bytes": 49631002,
+      "end_ts_ms": 1751327999000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-06.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1748736000000000
+    },
+    "2025-07": {
+      "bytes": 49632473,
+      "end_ts_ms": 1754006399000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-07.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1751328000000000
+    },
+    "2025-08": {
+      "bytes": 51999784,
+      "end_ts_ms": 1756684799000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-08.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1754006400000000
+    },
+    "2025-09": {
+      "bytes": 47258100,
+      "end_ts_ms": 1759276799000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-09.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1756684800000000
+    },
+    "2025-10": {
+      "bytes": 57605259,
+      "end_ts_ms": 1761955199000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-10.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1759276800000000
+    },
+    "2025-11": {
+      "bytes": 58257848,
+      "end_ts_ms": 1764547199000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-11.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1761955200000000
+    },
+    "2025-12": {
+      "bytes": 54202788,
+      "end_ts_ms": 1767225599000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2025-12.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1764547200000000
+    },
+    "2026-01": {
+      "bytes": 51941485,
+      "end_ts_ms": 1769903999000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-01.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1767225600000000
+    },
+    "2026-02": {
+      "bytes": 56134993,
+      "end_ts_ms": 1772323199000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-02.parquet",
+      "rows": 2419200,
+      "start_ts_ms": 1769904000000000
+    },
+    "2026-03": {
+      "bytes": 58867761,
+      "end_ts_ms": 1775001599000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-03.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1772323200000000
+    },
+    "2026-04": {
+      "bytes": 51756104,
+      "end_ts_ms": 1777593599000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-04.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1775001600000000
+    },
+    "2026-05": {
+      "bytes": 49858735,
+      "end_ts_ms": 1780271999000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-05.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1777593600000000
+    },
+    "2026-06": {
+      "bytes": 54049366,
+      "end_ts_ms": 1782863999000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-06.parquet",
+      "rows": 2592000,
+      "start_ts_ms": 1780272000000000
+    },
+    "2026-07": {
+      "bytes": 50291827,
+      "end_ts_ms": 1785542399000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-07.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1782864000000000
+    },
+    "2026-08": {
+      "bytes": 49104943,
+      "end_ts_ms": 1788220799000000,
+      "file": "data/raw_parquet/BTCUSDT_1s_2026-08.parquet",
+      "rows": 2678400,
+      "start_ts_ms": 1785542400000000
+    }
+  },
+  "symbol": "BTCUSDT"
+}

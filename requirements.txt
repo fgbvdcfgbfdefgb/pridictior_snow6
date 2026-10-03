@@ -1,0 +1,20 @@
+# Core runtime deps needed to TRAIN and RUN everything inside Snowflake
+# (no internet needed at runtime -- these are just pip-installed once from
+# PyPI into the Snowflake Notebook / Container Runtime environment, which the
+# project brief confirms is allowed).
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15.0
+matplotlib>=3.8
+pillow>=10.0
+
+# Torch: install the CUDA build that matches your Snowflake GPU compute pool.
+# On the 4x A10 Snowflake Container Runtime image, run instead:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# (listed here without a strict pin so you can pick the right CUDA build)
+torch>=2.2
+
+# ----------------------------------------------------------------------
+# Only needed OUTSIDE Snowflake, on a machine with internet, to (re)build /
+# extend data/raw_parquet/*.parquet via scripts/download_data.py:
+requests>=2.31
